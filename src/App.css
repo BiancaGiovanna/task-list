@@ -1,6 +1,6 @@
 .container{
-    /* border: 5px solid violet; */
     width: 30%;
+    min-width: 350px;
 }
 
 .form{
@@ -30,6 +30,7 @@
     justify-content:space-between;
     border: 5px solid violet;
     border-radius: 10px;
+    margin-bottom: 10px;
 
 }
 .item > p {
@@ -39,12 +40,12 @@
     margin-left: 10px;
 }
 
-.item > span{
+.item > div > span{
     font-size: 1.3rem;
     font-weight: 700;
     cursor: pointer;
     transition: 0.2s;
 }
-.item > span:hover{
+.item > div > span:hover{
     color: red; 
 }
